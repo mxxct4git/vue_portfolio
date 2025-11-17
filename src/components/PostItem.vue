@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { PostMeta } from '../utils/content'
-const props = defineProps<{ item?: PostMeta; to?: string; href?: string; placeholder?: boolean }>()
+defineProps<{ item?: PostMeta; to?: string; href?: string; placeholder?: boolean }>()
 
 function formatDate(input?: string): string {
   if (!input) return ''

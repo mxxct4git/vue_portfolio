@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { ProjectMeta } from '../utils/content'
-const props = defineProps<{ item?: ProjectMeta; to?: string; placeholder?: boolean; active?: boolean }>()
+defineProps<{ item?: ProjectMeta; to?: string; placeholder?: boolean; active?: boolean }>()
 const emit = defineEmits<{ (e: 'select'): void }>()
 </script>
 
