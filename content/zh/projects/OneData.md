@@ -5,7 +5,7 @@ summary: 基于大数据存储与计算架构的数据中台方案，实现数�
 tags: [OneData, 数据中台]
 tech: [Hadoop, Hive, HBase, Spark, Flink, Kafka, ClickHouse, Redis, Spring Boot]
 status: 已交付
-cover: /src/assets/cover2.png
+cover: /assets/cover2.png
 order: 2
 ---
 

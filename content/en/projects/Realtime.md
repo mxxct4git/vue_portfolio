@@ -5,7 +5,7 @@ summary: Streaming computation architecture with Kafka, Flink and Redis for low-
 tags: [Real-Time, Streaming]
 tech: [Flink, Kafka, Redis, ClickHouse, Spark Streaming, Prometheus, Grafana]
 status: ongoing
-cover: /src/assets/cover3.png
+cover: /assets/cover3.png
 order: 3
 ---
 

@@ -48,11 +48,11 @@ onBeforeUnmount(() => window.removeEventListener('resize', onResize))
 // Skills data for horizontal scroll; use local assets
 type Skill = { name: string; logo: string; alt?: string }
 const skills: Skill[] = [
-  { name: 'Vue', logo: new URL('../assets/vue.svg', import.meta.url).href, alt: 'Vue' },
-  { name: 'Spring', logo: new URL('../assets/spring-2.svg', import.meta.url).href, alt: 'Spring' },
-  { name: 'Java', logo: new URL('../assets/java.png', import.meta.url).href, alt: 'Java' },
-  { name: 'ClickHouse', logo: new URL('../assets/clickhouse.svg', import.meta.url).href, alt: 'ClickHouse' },
-  { name: 'Flink', logo: new URL('../assets/flink.jpg', import.meta.url).href, alt: 'Flink' },
+  { name: 'Vue', logo: '/assets/vue.svg', alt: 'Vue' },
+  { name: 'Spring', logo: '/assets/spring-2.svg', alt: 'Spring' },
+  { name: 'Java', logo: '/assets/java.png', alt: 'Java' },
+  { name: 'ClickHouse', logo: '/assets/clickhouse.svg', alt: 'ClickHouse' },
+  { name: 'Flink', logo: '/assets/flink.jpg', alt: 'Flink' },
   // External logos from user-provided URLs
   { name: 'Vue.', alt: 'Vue.', logo: 'https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg' },
   { name: 'Nextjs', alt: 'Nextjs', logo: 'https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg' },

@@ -98,4 +98,4 @@ order: 1
 - 利用 **Flink** 进行**用户行为实时采集**，实现**属性、行为与策略**的**统一查询体验**  
 
 ### 9. 系统架构图  
-![Portrait Image](/src/assets/portrait.png)
+![Portrait Image](/assets/portrait.png)

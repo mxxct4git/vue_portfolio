@@ -5,7 +5,7 @@ summary: 基于 Kafka、Flink 与 Redis 的流式计算架构，面向低延迟�
 tags: [实时, 流式]
 tech: [Flink, Kafka, Redis, ClickHouse, Spark Streaming, Prometheus, Grafana]
 status: 进行中
-cover: /src/assets/cover3.png
+cover: /assets/cover3.png
 order: 3
 ---
 

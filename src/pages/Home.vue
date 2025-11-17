@@ -54,7 +54,7 @@ watch(locale, async (loc) => {
       <div class="hero-right">
         <div class="profile-card p-card">
           <div class="card-header">
-            <div class="avatar"><img src="/src/assets/panda_1080.png" alt="Panda" class="avatar-img" loading="lazy" /></div>
+            <div class="avatar"><img src="/assets/panda_1080.png" alt="Panda" class="avatar-img" loading="lazy" /></div>
             <div>
               <h3 class="card-title">Panda</h3>
               <small class="card-sub">{{ t('home.profileRole') }}</small>

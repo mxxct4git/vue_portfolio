@@ -5,7 +5,7 @@ summary: A data middle platform approach to unify, standardize and streamline en
 tags: [OneData, Data Platform]
 tech: [Hadoop, Hive, HBase, Spark, Flink, Kafka, ClickHouse, Redis, Spring Boot]
 status: delivered
-cover: /src/assets/cover2.png
+cover: /assets/cover2.png
 order: 2
 ---
 

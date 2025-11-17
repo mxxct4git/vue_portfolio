@@ -98,4 +98,4 @@ To align with **Volcano Engine’s** advanced **user behavior analysis platform*
 - **Leveraging Flink for real-time user behavior ingestion**, enabling a **unified querying experience** for **user attributes, behavioral data, and strategic decision-making**.  
 
 ### 9. System Architecture Diagram  
-![Portrait Image](/src/assets/portrait.png)
+![Portrait Image](/assets/portrait.png)
