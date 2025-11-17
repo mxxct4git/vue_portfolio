@@ -1,0 +1,92 @@
+/* Google Fonts: Satisfy must be imported before any other rules */
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+/* PrismJS code highlight theme */
+@import 'prismjs/themes/prism.css';
+
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  line-height: 1.6;
+  color: #1f2937;
+  background: #f8fafc;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Menu link theme variables */
+  --menu-link: #111827;       /* light default */
+  --menu-hover: #374151;      /* light hover */
+  --menu-active: #2563eb;     /* light active */
+  /* Hero subtitle variables */
+  --hero-subtitle: #374151;   /* light subtitle */
+  --hero-subtitle-cn: #1f2937;/* light subtitle CN */
+  /* Hero title variable */
+  --hero-title: #1f2937;      /* light hero title */
+  /* Card text variables */
+  --card-sub: #6b7280;        /* light card sub text */
+  --card-desc: #374151;       /* light card desc text */
+  /* Timeline variables */
+  --timeline-line: #d1d5db;   /* light connector line */
+  --timeline-marker: #3b82f6; /* light marker color */
+}
+
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+main { padding: 1.5rem; }
+
+#app { max-width: 1080px; margin: 0 auto; }
+
+.text-muted { color: #6b7280; }
+.p-card { border-radius: 12px; box-shadow: 0 8px 24px rgba(31,41,55,0.06); overflow: hidden; background: #fff; }
+.p-card:hover { box-shadow: 0 12px 30px rgba(31,41,55,0.1); transform: translateY(-1px); transition: all .2s ease; }
+.p-button { padding: .6rem 1rem; border-radius: 8px; }
+.p-inputtext { padding: .55rem .75rem; border-radius: 8px; }
+/* Sticky header with glass effect to prevent content bleed-through */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background: rgba(248, 250, 252, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+/* Dark mode glass background */
+html.dark header {
+  background: rgba(11, 18, 32, 0.85);
+  border-bottom-color: rgba(51, 65, 85, 0.6);
+}
+
+/* Dark mode overrides */
+html.dark {
+  background: #0b1220;
+  color: #e5e7eb;
+  /* Dark theme overrides for menu */
+  --menu-link: #e2e8f0;       /* slate-200 for better legibility */
+  --menu-hover: #f1f5f9;      /* slate-100 on hover */
+  --menu-active: #60a5fa;     /* blue-400 active */
+  /* Dark theme overrides for hero subtitles */
+  --hero-subtitle: #ffffff;
+  --hero-subtitle-cn: #ffffff;
+  /* Dark theme overrides for card text */
+  --card-sub: #cbd5e1;
+  --card-desc: #e2e8f0;
+  /* Dark theme hero title */
+  --hero-title: #e5e7eb;
+  /* Dark theme timeline */
+  --timeline-line: #64748b;   /* slate-500 for visible connector */
+  --timeline-marker: #60a5fa; /* blue-400 marker for dark mode */
+}
+/* Keep header transparent in dark mode to avoid visual blocking */
+/* Keep consistent dark header styling */
+html.dark header { background: rgba(11, 18, 32, 0.85); }
+html.dark .p-card { background: #0f172a; color: #e5e7eb; box-shadow: 0 8px 24px rgba(0,0,0,0.4); }
+html.dark .text-muted { color: #94a3b8; }
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  line-height: 1.6;
+  color: #1f2937;
+  background: #f8fafc;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Utility class for applying Satisfy */
+.font-satisfy { font-family: 'Satisfy', cursive; font-weight: 400; }
